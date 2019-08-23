@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home 3 || Carroll App Landing HTML Template</title>
+    <title>Home 4 || Carroll App Landing HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -30,60 +30,63 @@
 
 <!-- Main Wrapper Start -->
 <div class="main-wrapper">
-   <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background:#0aa3a9 ">
-      <a class="navbar-brand" href="index.html">Bamboo Tree</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html" style="color: white">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" style="color: white">Bamboo Tree </a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="about-app.html">About App</a>
-              <a class="dropdown-item" href="challenges.html">Challenges</a>
-              <a class="dropdown-item" href="medals.html">Medals</a>
-              <a class="dropdown-item" href="leader-boards.html">Leader Boards</a>
-              <a class="dropdown-item" href="redemptions.html">Redemptions</a>
+    <!-- header-area start -->
+    <header class="header header-sticky">
+        <!-- header-top start -->
+        <div id="main-menu" class="header-top inner-header">
+            <div class="container">
+                <div class="row header-top-inner">
+                    <div class="col-lg-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo-2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="main-menu">
+                            <nav class="main-navigation">
+                                <ul>
+                                    <li class="active"><a href="#slider">Home</a></li>
+                                    <li class="smooth-scroll"><a href="#about">About</a></li>
+                                    <li><a href="#feature">Feature</a></li>
+                                    <li><a href="#screnshot">screenshot</a></li>
+                                    <li><a href="#testimonial">Clients</a></li>
+                                    <li><a href="#pricing">Pricing</a></li>
+                                    <li><a href="#team">team</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- mobile-menu start -->
+                        <div class="mobile-menu d-block d-lg-none"></div>
+                        <!-- mobile-menu end -->
+                    </div>
+                </div>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="rules.html" style="color: white">Rules</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="download.html" style="color: white">Download App</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html" style="color: white">FAQs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: white">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        </div>
+        <!-- Header-top end -->
+    </header>
+    <!-- Header-area end -->
     
     <!-- Hero Slider start -->
-    <div class="hero-slider hero-slider-bg-1" id="slider">
-        <div class="single-slide" style="background-image: url(assets/images/slider/slider-02.png)">
+    <div class="hero-slider hero-slider-bg-1 " id="slider">
+        <div class="single-slide overlay-grad-bg">
             <!-- Hero Content One Start -->
             <div class="hero-content-one container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-8"> 
-                        <div class="slider-text-info white-text" style="margin-top: 80px!important">
-                            <h1>Bamboo Tree.</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <div class="slider-text-info">
+                            <h1>Carroll an Awesome <br>Travel App.</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                             <div class="slider-button">
                                 <a href="#" class=" slider-btn uppercase"><span><i class="fa fa-apple"></i>Apple store</span></a>
                                 <a href="#" class="slider-btn uppercase"><span><i class="fa fa-send-o"></i>Google play</span></a>
                             </div>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-3 offset-lg-2 col-md-4 text-center"> 
+                    <div class="col-lg-3 offset-lg-1 col-md-4 text-center"> 
                         <div class="slider-inner-imge-2 banner-right">
                             <img src="assets/images/slider/inner-1.png" alt="">
                         </div>
@@ -98,27 +101,30 @@
     <!-- About Area Start -->
     <div id="about" class="about-area bg-grey section-ptb">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6  order-2 order-lg-1">
-                    <div class="about-content-two">
-                        <div class="about-title-two">
-                            <h2>About Carroll </h2>
-                            <h3>Lorem ipsum dolor sit amet </h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Proin pretium purus a lorem ornare </p>
-                        <p>sed lobortis pulvinar. Integer laoreet mi id eros porta euismod. Suspendisse potenti. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien</p>
-                        <div class="about-social-link">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                        </div>
+            <div class="row">
+                <div class="col-lg-7 ml-auto mr-auto">
+                    <div class="section-title">
+                        <h2>About Carroll</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat, accusamus! Consequatur suscipit numquam cumque.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2">
+            </div>
+            <div class="row  align-items-center">
+                <div class="col-lg-6 order-1 order-lg-1">
                     <div class="about-image text-center wow fadeInBottom" data-wow-duration="1s">
                         <img src="assets/images/about/01.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6   order-2 order-lg-2">
+                    <div class="about-content">
+                        <div class="about-title">
+                            <h2>BEST APP Carroll</h2>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected azer duskam by lewoj yrawtap ariations </p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="about-btn">
+                            <a href="#" class="button">Download</a><a href="#" class="button">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,8 +132,8 @@
     </div>
     <!-- About Area End -->
     
-    <!-- Feature Area Start  -->
-    <div  id="feature" class="feature-area section-ptb">
+    <!-- Service Area Start  -->
+    <div  id="feature" class="service-area-four section-pt section-pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 ml-auto mr-auto">
@@ -137,82 +143,38 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center feature-area-inner">
-                <div class="col-lg-4 order-md-2 col-md-6 order-lg-1">
-                    <div class="feature-content-inner">
-                        <div class="single-feature text-right row-reverse">
+            <div class="feature-area-inner-four">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature mb--30">
                             <div class="feature-icon">
-                                <i class="ion-ios-speedometer-outline" style="background:#ef7f1a!important"></i>
+                                <i class="ion-ios-cloud-download-outline"></i>
                             </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>Dedicated Support</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="single-feature  text-right row-reverse">
-                            <div class="feature-icon">
-                                <i class="ion-ios-chatboxes-outline" style="background:#ef7f1a!important"></i>
-                            </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>Live Chat Messages</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="single-feature  text-right row-reverse">
-                            <div class="feature-icon">
-                                <i class="ion-ios-lightbulb-outline" style="background:#ef7f1a!important"></i>
-                            </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>Creative Design</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
+                            <div class="feature-text">
+                                <h3>Downalods File</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem provident nostrum ea fugit eos labore similique.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4  order-md-1 col-md-12 order-lg-2">
-                    <div class="feature-image text-center">
-                        <img src="assets/images/screenshot/service.png" alt="">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature active mb--30">
+                            <div class="feature-icon">
+                                <i class="ion-ios-lightbulb-outline"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Creative Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem provident nostrum ea fugit eos labore similique.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4  order-md-3 col-md-6 order-lg-3 ">
-                    <div class="feature-content">
-                        <div class="single-feature">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature mb--30">
                             <div class="feature-icon">
-                                <i class="ion-ios-world-outline" style="background:#ef7f1a!important"></i>
+                                <i class="ion-ios-paper-outline"></i>
                             </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>Clean Design</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="single-feature">
-                            <div class="feature-icon">
-                                <i class="ion-ios-gear-outline" style="background:#ef7f1a!important"></i>
-                            </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>User Friendly</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="single-feature">
-                            <div class="feature-icon">
-                                <i class="ion-ios-cloud-download-outline" style="background:#ef7f1a!important"></i>
-                            </div>
-                            <div class="feature-content">
-                                <div class="feature-text">
-                                <h4>Downalods File</h4>
-                                <p>Your project looks great on any device. Content can be easily read and a user.</p>
-                            </div>
+                            <div class="feature-text">
+                                <h3>Document File</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem provident nostrum ea fugit eos labore similique.</p>
                             </div>
                         </div>
                     </div>
@@ -220,10 +182,10 @@
             </div>
         </div>
     </div>
-    <!-- Feature Area End -->
+    <!-- Service Area End -->
     
     <!-- Video Area Start -->
-    <div class="video-area theme-bg video-banner-overlay" style="background:#ef7f1a!important">
+    <div class="video-area gradient-overly video-banner-overlay">
         <div class="video-info text-center">
             <div class="vedio-popup-btn wow pulse" data-wow-duration="1s">
                 <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube"> <img src="assets/images/icon/iconroject.png" alt=""> </a>
@@ -234,11 +196,11 @@
     <!-- Video Area End -->
     
     <!-- Project Count Area Start -->
-    <div class="project-count-area" >
+    <div class="project-count-area">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="project-count-inner project-bg wow fadeInBottom" data-wow-duration="1s" style="background:#0aa3a9!important">
+                    <div class="project-count-inner project-bg wow fadeInBottom" data-wow-duration="1s">
                         <div class="row">
                             <div class="col-lg-3 col-sm-6">
                                 <!-- counter start -->
@@ -278,6 +240,7 @@
             </div>
         </div>
     </div>
+    <!-- Project Count Area End -->
     
     <!-- Screenshot Area Tow Start -->
     <div id="screnshot" class="screnshot-area-tow section-ptb">
@@ -321,6 +284,18 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
+                            <a href="assets/images/screenshot/08.png" class="img-poppu">
+                                <span class="single-img overlay-bg">
+                                    <img src="assets/images/screenshot/08.png" alt="">
+                                </span>
+                            </a>
+                        </div>
+                        <!-- Singel Screenshot End -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Singel Screenshot Start -->
+                        <div class="singel-screenshot">
+                            <span class="overlay-bg"></span>
                             <a href="assets/images/screenshot/03.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
                                     <img src="assets/images/screenshot/03.png" alt="">
@@ -345,21 +320,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screenshot/01.png" class="img-poppu">
+                            <a href="assets/images/screenshot/05.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screenshot/01.png" alt="">
-                                </span>
-                            </a>
-                        </div>
-                        <!-- Singel Screenshot End -->
-                    </div>
-                    <div class="col-lg-4">
-                        <!-- Singel Screenshot Start -->
-                        <div class="singel-screenshot">
-                            <span class="overlay-bg"></span>
-                            <a href="assets/images/screenshot/02.png" class="img-poppu">
-                                <span class="single-img overlay-bg">
-                                    <img src="assets/images/screenshot/02.png" alt="">
+                                    <img src="assets/images/screenshot/05.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -371,13 +334,37 @@
         </div>
     </div>
     <!-- Screenshot Area Tow End -->
-
-     <!-- Testimonial Area Start -->
-    <div id="testimonial" class="testimonial-area section-ptb bg-testimonial" style="background:#ef7f1a!important">
+    
+    
+    <!-- Testimonial Area Start -->
+    <div id="testimonial" class="testimonial-area section-ptb gradient-overly">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 ml-auto mr-auto">
                     <div class="testimonial-content testimonial-active">
+                        <!-- single-testimonial start -->
+                        <div class="single-testimonial">
+                            <div class="client-image">
+                                <img src="assets/images/review/02.jpg" alt="">
+                            </div>
+                            <div class="client-rating">
+                                <ul class="d-flex">
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star-o"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="testimonial-text">
+                                <p class="client-texe-dec">Aenean sollicitudin, lorem quis bibendum auctor This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. , nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                                <div class="test-author">
+                                    <h3>Mickel Harice </h3>
+                                    <p>CEO - of Teritech</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-testimonial end -->
                         <!-- single-testimonial start -->
                         <div class="single-testimonial">
                             <div class="client-image">
@@ -424,29 +411,6 @@
                             </div>
                         </div>
                         <!-- single-testimonial end -->
-                        <!-- single-testimonial start -->
-                        <div class="single-testimonial">
-                            <div class="client-image">
-                                <img src="assets/images/review/02.jpg" alt="">
-                            </div>
-                            <div class="client-rating">
-                                <ul class="d-flex">
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star-o"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-text">
-                                <p class="client-texe-dec">Aenean sollicitudin, lorem quis bibendum auctor This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. , nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-                                <div class="test-author">
-                                    <h3>Mickel Harice </h3>
-                                    <p>CEO - of Teritech</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single-testimonial end -->
                     </div>
                 </div>
             </div>
@@ -454,12 +418,217 @@
     </div>
     <!-- Testimonial Area End -->
     
+    <!-- Pricing Packages Start -->
+    <div id="pricing" class="priceing-package-area section-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 ml-auto mr-auto">
+                    <div class="section-title pb--50">
+                        <h2>OUR Pricing Table</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat, accusamus! Consequatur suscipit numquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters ext-plr-30">
+            <div class="col-lg-4 col-md-6 order-lg-1 order-1">
+                <!-- single-priceing Start -->
+                <div class="single-priceing text-center">
+                    <div class="table-header">
+                        <h5>Basic Plan</h5>
+                        <h3>$49.00</h3>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>Marketing Metup</li>
+                        <li class="not">Free Coffy.</li>
+                        <li>Support Papers</li>
+                        <li class="not">Policy System</li>
+                        <li class="not">One Time Support</li>
+                        <li></li>
+                    </ul>
+                    <div class="chose-btn">
+                        <a href="#" class="btn choose-button">Choose Now </a>
+                    </div>
+                </div>
+                <!-- single-priceing End -->
+            </div>
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto order-lg-2 order-3">
+                <!-- single-priceing Start -->
+                <div class="single-priceing text-center active">
+                    <div class="table-header">
+                        <h5>Basic Plan</h5>
+                        <h3>$99.00</h3>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>Marketing Metup</li>
+                        <li>Free Coffy.</li>
+                        <li>Support Papers</li>
+                        <li>Policy System</li>
+                        <li>One Time Support</li>
+                        <li></li>
+                    </ul>
+                    <div class="chose-btn">
+                        <a href="#" class="btn choose-button">Choose Now </a>
+                    </div>
+                </div>
+                <!-- single-priceing End -->
+            </div>
+            <div class="col-lg-4 col-md-6 order-lg-3 order-2">
+                <!-- single-priceing Start -->
+                <div class="single-priceing last text-center">
+                    <div class="table-header">
+                        <h5>Basic Plan</h5>
+                        <h3>$60.00</h3>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>Marketing Metup</li>
+                        <li>Free Coffy.</li>
+                        <li>Support Papers</li>
+                        <li class="not">Policy System</li>
+                        <li class="not">One Time Support</li>
+                        <li></li>
+                    </ul>
+                    <div class="chose-btn">
+                        <a href="#" class="btn choose-button">Choose Now </a>
+                    </div>
+                </div>
+                <!-- single-priceing End -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Pricing Packages End -->
+    
+    <!-- Our Team Aare Start -->
+    <div id="team" class="our-team-area bg-grey section-pt section-pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 ml-auto mr-auto">
+                    <div class="section-title">
+                        <h2>OUR Team Member</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat, accusamus! Consequatur suscipit numquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team team-5">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="assets/images/team/team-radious-1.png" alt="team img">
+                            </a>
+                            <div class="team-hover-action">
+                                <div class="hover-action">
+                                    <h4><a href="#">Donna Garrett</a></h4>
+                                    <ul class="social-network social-net-1">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="vimeo" href="#"><i class="fa fa-vimeo"></i></a></li>
+                                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team team-5">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="assets/images/team/team-radious-2.png" alt="team img">
+                            </a>
+                            <div class="team-hover-action">
+                                <div class="hover-action">
+                                    <h4><a href="#">Nicole Williams</a></h4>
+                                    <ul class="social-network social-net-1">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="vimeo" href="#"><i class="fa fa-vimeo"></i></a></li>
+                                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team team-5">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="assets/images/team/team-radious-3.png" alt="team img">
+                            </a>
+                            <div class="team-hover-action">
+                                <div class="hover-action">
+                                    <h4><a href="#">Donna Garrett</a></h4>
+                                    <ul class="social-network social-net-1">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="vimeo" href="#"><i class="fa fa-vimeo"></i></a></li>
+                                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team team-5">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="assets/images/team/team-radious-4.png" alt="team img">
+                            </a>
+                            <div class="team-hover-action">
+                                <div class="hover-action">
+                                    <h4><a href="#">Jessica Watson</a></h4>
+                                    <ul class="social-network social-net-1">
+                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="vimeo" href="#"><i class="fa fa-vimeo"></i></a></li>
+                                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Team Aare End -->
+    
+    <!-- Download Area Start  -->
+    <div class="download-area  gradient-overly">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 ml-auto mr-auto">
+                    <div class="section-title text-black">
+                        <h2>Download our app</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat, accusamus! Consequatur suscipit numquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="download-buttons text-center">
+                        <a href="#" class="button"> <i class="fa fa-apple"></i> APP STORE</a>
+                        <a href="#" class="button"><i class="fa fa-android"></i>PLAY STORE</a>
+                        <a href="#" class="button"><i class="fa fa-windows"></i>PLAY STORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Download Area End  -->
+    
     <!-- Contact Area Start -->
-    <div id="contact" class="contact-area-two section-ptb">
+    <div id="contact" class="contact-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="contact-info-container">    
+                    <div class="contact-info-container wow fadeInBottom" data-wow-duration="1s">    
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="contact-title">
@@ -490,7 +659,7 @@
                                             <textarea name="message" class="yourmessage form-control" placeholder="Message"></textarea>
                                         </div>	
                                         <div class="submit-form form-group col-sm-12">
-                                            <button class="button submit-btn" type="submit" style="background:#ef7f1a!important"><span>Submit</span></button>
+                                            <button class="button submit-btn" type="submit"><span>Submit</span></button>
                                             <p class="form-messege"></p>
                                         </div>											
                                     </div>
@@ -503,43 +672,18 @@
         </div>
     </div>
     <!-- Contact Area End -->
-
-
-    <!-- Download Area Start  -->
-    <div class="download-area-two section-ptb download-bg" style="background:#ef7f1a!important">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 ml-auto mr-auto">
-                    <div class="section-title text-black">
-                        <h2>Download our app</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat, accusamus! Consequatur suscipit numquam cumque.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="download-buttons text-center">
-                        <a href="#" class="button"> <i class="fa fa-apple" style="color:#0aa3a9!important"></i> APP STORE</a>
-                        <a href="#" class="button"><i class="fa fa-android" style="color:#0aa3a9!important"></i>PLAY STORE</a>
-                        <!-- <a href="#" class="button"><i class="fa fa-windows" style="color:#0aa3a9!important"></i>PLAY STORE</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Download Area End  -->
     
     <!-- Footer Area Start -->
     <footer class="footer-area">
-        <div class="footer-content-area fotter-content-two" style="background:#ef7f1a!important">
+        <div class="footer-content-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="footer-content fotter-content-two">
+                        <div class="footer-content">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo-2.png" alt=""></a>
+                                <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
                             </div>
-                            <p>Copyright © 2019 Bamboo Tree. All Rights Reserved</p>
+                            <p>Copyright © 2018 HasTech. All Rights Reserved</p>
                             <div class="social-link">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -554,6 +698,7 @@
         </div>
     </footer>
     <!-- Footer Area End -->
+    
  
 </div>
 <!-- Main Wrapper End -->
